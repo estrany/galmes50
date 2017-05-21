@@ -1,11 +1,10 @@
 /* GLOBAL*/
 /*$galmes-red: #EF3120;*/
 $galmes-red: #C21709;
-
-@font-face {
-    font-family: 'IndieFlower';
-    src: url(../fonts/IndieFlower.tff) format('truetype');
-}
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+$screen-xs-max: 767px;
 
 /* HEADER */
 .header {
@@ -15,22 +14,34 @@ $galmes-red: #C21709;
 
 .header-text {
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
 }
 
 header {
     .container {
-        height: 100vh;
+        height: 100%;
     }
     .wrapper {
         position: relative;
         height: 100%;
     }
     .wrapper-col {
-        height: 90vh;
+        height: 80%;
+    }
+    .flags {
+        margin-top: 50px;
+        
+        a {
+            font-size: 1.8em;
+        }
     }
     img {
         max-width: 65vw;
+    }
+    
+    h2 {
+        font-size: 3.5em;
+        font-style: italic;
     }
     
     h3 {
@@ -59,6 +70,20 @@ header {
     
     text-align: left;
     color: #fff;
+    
+    @media screen and (max-width: $screen-xs-max) {
+        img {
+            max-width: 90%;
+        }
+        h2 {
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .flags {
+            margin-top: 15px;
+            font-size: 0.5em;
+        }
+    }
 }
 
 /* ABOUT */
@@ -85,6 +110,11 @@ aside {
     p {
         font-size: 1.5em;
     }
+    @media screen and (max-width: $screen-xs-max) {
+        h1 {
+            font-size: 2.5em !important;
+        }
+    }
 }
 
 .callout {
@@ -94,7 +124,7 @@ aside {
 }
 
 .porcelanosa {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .callout-bdb {
