@@ -8,7 +8,7 @@ $screen-xs-max: 767px;
 
 /* HEADER */
 .header {
-    background: url(../img/portada-dark.jpg) no-repeat center center scroll;
+    background: url(../img/portada2-darker.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 
@@ -42,6 +42,7 @@ header {
     h2 {
         font-size: 3.5em;
         font-style: italic;
+        padding-left: 15px;
     }
     
     h3 {
@@ -55,7 +56,7 @@ header {
     }
     
     a {
-        color: #111;
+        color: #fff;
         opacity: 0.3;
     }
     
