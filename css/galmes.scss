@@ -1,10 +1,14 @@
 /* GLOBAL*/
-/*$galmes-red: #EF3120;*/
-$galmes-red: #C21709;
+$galmes-red: #EF3120;
+/*$galmes-red: #C21709;*/
 $screen-lg-min: 1200px;
 $screen-md-min: 992px;
 $screen-sm-min: 768px;
 $screen-xs-max: 767px;
+
+p {
+    font-size: 1.2em;
+}
 
 /* HEADER */
 .header {
@@ -122,15 +126,25 @@ aside {
     background: url(../img/porcelanosa-dark.jpg) no-repeat center center scroll;
     background-size: cover;
     background-color: #000;
-}
-
-.porcelanosa {
-    font-weight: 300;
+    .porcelanosa {
+        font-weight: 300;
+    }
+    a, a:hover, a:active, a:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+    h1 {
+        margin-bottom: 25px;
+    }
 }
 
 .callout-bdb {
     background: #88A914;
     background-color: #88A914;
+    img {
+        max-width: 200px;
+        margin-top: 30px;
+    }
 }
 
 
