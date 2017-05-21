@@ -76,67 +76,81 @@ header {
       font-size: 0.5em; } }
 
 /* ABOUT */
+/* line 97, /home/n07hing/git/galmes50/css/galmes.scss */
+#about h2 {
+  margin-bottom: 30px; }
+
+/* line 100, /home/n07hing/git/galmes50/css/galmes.scss */
+#about .lead {
+  margin-bottom: 30px; }
+
+/* line 103, /home/n07hing/git/galmes50/css/galmes.scss */
+#about .superlead {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 300; }
+
 /* SERVICES */
-/* line 98, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 111, /home/n07hing/git/galmes50/css/galmes.scss */
 .bg-primary {
   background-color: #EF3120; }
 
-/* line 102, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 115, /home/n07hing/git/galmes50/css/galmes.scss */
 .text-primary {
   color: #EF3120; }
 
 /* CALLOUT */
-/* line 108, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 121, /home/n07hing/git/galmes50/css/galmes.scss */
 aside h2 {
   margin-bottom: 25px; }
 
-/* line 111, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 124, /home/n07hing/git/galmes50/css/galmes.scss */
 aside h4 {
   font-size: 1.6em; }
 
-/* line 115, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 128, /home/n07hing/git/galmes50/css/galmes.scss */
 aside p {
   font-size: 1.5em; }
 
 @media screen and (max-width: 767px) {
-  /* line 119, /home/n07hing/git/galmes50/css/galmes.scss */
+  /* line 132, /home/n07hing/git/galmes50/css/galmes.scss */
   aside h1 {
     font-size: 2.5em !important; } }
 
-/* line 125, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 138, /home/n07hing/git/galmes50/css/galmes.scss */
 .callout {
-  background: url(../img/porcelanosa-dark.jpg) no-repeat center center scroll;
+  background: url(../img/porcelanosa-darker.jpg) no-repeat center center scroll;
   background-size: cover;
-  background-color: #000; }
-  /* line 129, /home/n07hing/git/galmes50/css/galmes.scss */
+  background-color: #eee; }
+  /* line 142, /home/n07hing/git/galmes50/css/galmes.scss */
   .callout .porcelanosa {
     font-weight: 300; }
-  /* line 132, /home/n07hing/git/galmes50/css/galmes.scss */
+  /* line 145, /home/n07hing/git/galmes50/css/galmes.scss */
   .callout a, .callout a:hover, .callout a:active, .callout a:focus {
     color: #fff;
     text-decoration: none; }
-  /* line 136, /home/n07hing/git/galmes50/css/galmes.scss */
+  /* line 149, /home/n07hing/git/galmes50/css/galmes.scss */
   .callout h1 {
     margin-bottom: 25px; }
 
-/* line 141, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 154, /home/n07hing/git/galmes50/css/galmes.scss */
 .callout-bdb {
   background: #88A914;
   background-color: #88A914; }
-  /* line 144, /home/n07hing/git/galmes50/css/galmes.scss */
+  /* line 157, /home/n07hing/git/galmes50/css/galmes.scss */
   .callout-bdb img {
     max-width: 200px;
     margin-top: 30px; }
 
 /* PORTFOLIO */
-/* line 152, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 165, /home/n07hing/git/galmes50/css/galmes.scss */
 .img-portfolio:hover {
   opacity: 1 !important; }
 
 /* CALL TO ACTION */
 /* MAP */
 /* FOOTER*/
-/* line 162, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 175, /home/n07hing/git/galmes50/css/galmes.scss */
 footer a, footer a:hover, footer a:active, footer a:focus {
   color: #EF3120; }
 

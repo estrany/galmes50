@@ -93,6 +93,19 @@ header {
 
 /* ABOUT */
 
+#about {
+    h2 {
+        margin-bottom: 30px;
+    }
+    .lead {
+        margin-bottom: 30px;
+    }
+    .superlead {
+        font-size: 2em;
+        font-style: italic;
+        font-weight: 300;
+    }
+}
 
 /* SERVICES */
 .bg-primary {
@@ -123,9 +136,9 @@ aside {
 }
 
 .callout {
-    background: url(../img/porcelanosa-dark.jpg) no-repeat center center scroll;
+    background: url(../img/porcelanosa-darker.jpg) no-repeat center center scroll;
     background-size: cover;
-    background-color: #000;
+    background-color: #eee;
     .porcelanosa {
         font-weight: 300;
     }
