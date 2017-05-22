@@ -140,17 +140,21 @@ aside p {
   /* line 157, /home/n07hing/git/galmes50/css/galmes.scss */
   .callout-bdb img {
     max-width: 200px;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-bottom: 60px; }
+  /* line 162, /home/n07hing/git/galmes50/css/galmes.scss */
+  .callout-bdb h1 {
+    margin-top: 60px; }
 
 /* PORTFOLIO */
-/* line 165, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 169, /home/n07hing/git/galmes50/css/galmes.scss */
 .img-portfolio:hover {
   opacity: 1 !important; }
 
 /* CALL TO ACTION */
 /* MAP */
 /* FOOTER*/
-/* line 175, /home/n07hing/git/galmes50/css/galmes.scss */
+/* line 179, /home/n07hing/git/galmes50/css/galmes.scss */
 footer a, footer a:hover, footer a:active, footer a:focus {
   color: #EF3120; }
 
