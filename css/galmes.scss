@@ -61,7 +61,7 @@ header {
     
     a {
         color: #fff;
-        opacity: 0.3;
+        opacity: 0.8;
     }
     
     a:hover, a:active {
@@ -178,5 +178,12 @@ aside {
 footer {
     a, a:hover, a:active, a:focus {
         color: $galmes-red;
+    }
+    
+    .facebook {
+        color: #3B5998;
+    }
+    .twitter {
+        color: #4099FF;
     }
 }

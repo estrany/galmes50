@@ -54,7 +54,7 @@ header {
   /* line 62, /home/n07hing/git/galmes50/css/galmes.scss */
   header a {
     color: #fff;
-    opacity: 0.3; }
+    opacity: 0.8; }
   /* line 67, /home/n07hing/git/galmes50/css/galmes.scss */
   header a:hover, header a:active {
     color: #fff !important;
@@ -157,5 +157,13 @@ aside p {
 /* line 179, /home/n07hing/git/galmes50/css/galmes.scss */
 footer a, footer a:hover, footer a:active, footer a:focus {
   color: #FF3333; }
+
+/* line 183, /home/n07hing/git/galmes50/css/galmes.scss */
+footer .facebook {
+  color: #3B5998; }
+
+/* line 186, /home/n07hing/git/galmes50/css/galmes.scss */
+footer .twitter {
+  color: #4099FF; }
 
 /*# sourceMappingURL=galmes.css.map */
