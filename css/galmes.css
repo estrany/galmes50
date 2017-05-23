@@ -93,11 +93,11 @@ header {
 /* SERVICES */
 /* line 111, /home/n07hing/git/galmes50/css/galmes.scss */
 .bg-primary {
-  background-color: #EF3120; }
+  background-color: #FF3333; }
 
 /* line 115, /home/n07hing/git/galmes50/css/galmes.scss */
 .text-primary {
-  color: #EF3120; }
+  color: #FF3333; }
 
 /* CALLOUT */
 /* line 121, /home/n07hing/git/galmes50/css/galmes.scss */
@@ -156,6 +156,6 @@ aside p {
 /* FOOTER*/
 /* line 179, /home/n07hing/git/galmes50/css/galmes.scss */
 footer a, footer a:hover, footer a:active, footer a:focus {
-  color: #EF3120; }
+  color: #FF3333; }
 
 /*# sourceMappingURL=galmes.css.map */
