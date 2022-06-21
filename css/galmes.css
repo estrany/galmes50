@@ -163,7 +163,11 @@ footer .facebook {
   color: #3B5998; }
 
 /* line 186, /home/n07hing/git/galmes50/css/galmes.scss */
-footer .twitter {
-  color: #4099FF; }
+footer .instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /*# sourceMappingURL=galmes.css.map */
